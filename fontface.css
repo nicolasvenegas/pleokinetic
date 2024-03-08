@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Futura Bk';
-    src: url('FuturaBT-Book.woff2') format('woff2'),
-        url('FuturaBT-Book.woff') format('woff');
+    src: url('https://cdn.glitch.global/7a09067d-7957-4cb6-9255-345cd447eace/FuturaBT-Book.woff2?v=1709931945784') format('woff2'),
+        url('https://cdn.glitch.global/7a09067d-7957-4cb6-9255-345cd447eace/FuturaBT-Book.woff?v=1709931945355') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -9,28 +9,9 @@
 
 @font-face {
     font-family: 'Futura Bk italic';
-    src: url('FuturaBT-BookItalic.woff2') format('woff2'),
-        url('FuturaBT-BookItalic.woff') format('woff');
+    src: url('https://cdn.glitch.global/7a09067d-7957-4cb6-9255-345cd447eace/FuturaBT-BookItalic.woff2?v=1709931946806') format('woff2'),
+        url('https://cdn.glitch.global/7a09067d-7957-4cb6-9255-345cd447eace/FuturaBT-BookItalic.woff?v=1709931946328') format('woff');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
 }
-
-@font-face {
-    font-family: 'Futura Bd';
-    src: url('FuturaBT-BoldItalic.woff2') format('woff2'),
-        url('FuturaBT-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Futura BdCn BT';
-    src: url('FuturaBT-BoldCondensed.woff2') format('woff2'),
-        url('FuturaBT-BoldCondensed.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
