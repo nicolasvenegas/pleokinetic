@@ -12,6 +12,7 @@
 }
 
 
+/**etiquetas HTML**/
 body {
   font-family: "Roboto", sans-serif;
   background-color: #EDEDED;
@@ -19,9 +20,22 @@ body {
 h1,h2,h3,h4,h5,h6{
   font-family: "Futura Bk", sans-serif;
 }
+
+/**Clases Foundatiion Framewok**/
 .grid-container{
   max-width: 65rem;
 }
+.menu{
+  font-size:0.9rem;
+}
+
+/**Identificadores sitio web**/
 #index-grid-container{
   background-color: white;
+}
+#black-grid-container{
+  background: #414141;
+}
+#black-grid-container a{
+  color: white;
 }
