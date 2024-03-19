@@ -139,6 +139,9 @@ a:focus {
 #index-noticia ul li {
   font-size: 1.1rem;
 }
+#index-comite-grid-container{
+  margin-bottom: 3rem;
+}
 #index-comite-header {
   padding: 2rem 0;
 }
@@ -148,6 +151,14 @@ a:focus {
 #index-comite-content h4 {
   font-size: 1.1rem;
   font-weight: bold;
+  margin: 1rem 0 0;
+}
+#index-comite-content p{
+  font-size: 0.9rem;
+}
+#index-comite-content img{
+  border-radius: 0 0 1rem 1rem;
+  overflow: hidden;
 }
 #postheader-grid-container .callout {
   border-radius: 0 0 1rem 1rem;
