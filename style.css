@@ -20,7 +20,7 @@ h6 {
   font-family: "Futura Bk", sans-serif;
 }
 h1{
-  margin:2rem;
+  margin: 0;
 }
 h2{
   font-size: 2rem;  
@@ -47,25 +47,30 @@ h2{
 }
 /**Clases sitio web**/
 .cell-radius-bottom-right{
-  border-radius: 0 0 3rem 0;
+  border-radius: 0 0 1.5rem 0;
   overflow: hidden;
+}
+.blue-grid-container {
+  background-color: #003a6c;
+}
+.blue-grid-container h2 {
+  color: white;
+}
+.header-grid-container{
+  padding: 0;
 }
 /**Identificadores sitio web**/
 #index-grid-container {
   background-color: white;
 }
-#black-grid-container {
-  background: #414141;
+#preheader-grid-container {
+  font-weight: bold;
+  font-size: 0.8rem;
+  background: #333;
 }
-#black-grid-container a {
-  color: white;
-}
-#blue-grid-container {
-  background-color: #003a6c;
-}
-#blue-grid-container h2 {
+#preheader-grid-container a {
   color: white;
 }
 #logoufro-1 {
-  filter: saturate(0);
+  filter: saturate(1);
 }
