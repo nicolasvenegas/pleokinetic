@@ -145,6 +145,16 @@ a:focus {
 #index-comite-header {
   padding: 2rem 0;
 }
+#index-comite-header h3{
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+#index-comite-header h3 span{
+  font-weight: normal;
+  text-style: italic;
+  font-size: 2rem;
+}
 #index-comite-header p {
   margin: 0;
 }
