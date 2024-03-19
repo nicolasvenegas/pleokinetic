@@ -84,3 +84,7 @@ h2 {
 #logoufro-1 {
   filter: saturate(1);
 }
+#big-header {
+  background: url("https://cdn.glitch.global/7a09067d-7957-4cb6-9255-345cd447eace/pleokinetic_banner1.jpg?v=1710850903710")
+    no-repeat center right;
+}
