@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap")
+
+  
   /* Basic page style resets */ * {
   box-sizing: border-box;
 }
@@ -35,6 +37,7 @@ h2 {
 }
 .button {
   border-radius: 5px;
+  font-weight: bold;
 }
 .button,
 .button.disabled,
@@ -89,6 +92,11 @@ h2 {
 #big-header {
   background: url("https://cdn.glitch.global/7a09067d-7957-4cb6-9255-345cd447eace/pleokinetic_banner1.jpg?v=1710850903710")
     no-repeat center right;
+  background-position-y: -200px;
+  background-size: cover;
+}
+#postheader-grid-container p{
+  color: white;
 }
 #postheader-grid-container h2 {
   font-size: 4rem;
