@@ -19,6 +19,12 @@ h5,
 h6 {
   font-family: "Futura Bk", sans-serif;
 }
+h1{
+  margin:2rem;
+}
+h2{
+  font-size: 2rem;  
+}
 
 /**Clases Foundation Framewok**/
 .grid-container {
@@ -38,6 +44,11 @@ h6 {
 .button[disabled]:focus,
 .button[disabled]:hover {
   background-color: #003a6c;
+}
+/**Clases sitio web**/
+.cell-radius-bottom-right{
+  border-radius: 0 0 3rem 0;
+  overflow: hidden;
 }
 /**Identificadores sitio web**/
 #index-grid-container {
