@@ -57,7 +57,7 @@ h2 {
 .button.secondary[disabled],
 .button.secondary[disabled]:focus,
 .button.secondary[disabled]:hover {
-  background-color: #ff7618;
+  background-color: #4c86d7;
   color: #fefefe;
 }
 /**Clases sitio web**/
@@ -141,4 +141,8 @@ h2 {
 #postheader-grid-container .callout ul li span {
   text-transform: uppercase;
   font-weight: bold;
+}
+#index-noticias-grid-container{
+  margin-top: -80px;
+  margin-bottom: 2rem;
 }
