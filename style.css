@@ -65,6 +65,8 @@ h2 {
 }
 .blue-grid-container h2 {
   color: white;
+  font-size: 1.4rem;
+  font-weight: bold;
 }
 .header-grid-container {
   padding: 0;
@@ -76,7 +78,7 @@ h2 {
 #preheader-grid-container {
   font-weight: bold;
   font-size: 0.8rem;
-  background: #333;
+  background: #333333;
 }
 #preheader-grid-container a {
   color: white;
@@ -87,4 +89,20 @@ h2 {
 #big-header {
   background: url("https://cdn.glitch.global/7a09067d-7957-4cb6-9255-345cd447eace/pleokinetic_banner1.jpg?v=1710850903710")
     no-repeat center right;
+}
+#postheader-grid-container h2 {
+  font-size: 4rem;
+  color: white;
+  line-height: 1;
+  margin-bottom: 2rem;
+}
+#postheader-grid-container h2 span {
+  font-size: 1.6rem;
+}
+#postheader-grid-container h3 {
+  font-size: 1.3rem;
+  color: white;
+  font-style: italic;
+  margin: 0;
+  padding: 3rem 0;
 }
