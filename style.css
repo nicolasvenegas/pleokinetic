@@ -25,6 +25,23 @@ h1 {
 h2 {
   font-size: 2rem;
 }
+p {
+  color: #8aa0ae;
+}
+.h1 small,
+.h2 small,
+.h3 small,
+.h4 small,
+.h5 small,
+.h6 small,
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  color: #8aa0ae;
+}
 li a,
 p a {
   color: #4c86d7;
@@ -205,9 +222,6 @@ a:focus {
   font-weight: bold;
 }
 
-
-
-
 /* BUILDING BLOCKS COMPONENTS */
 
 .marketing-site-footer {
@@ -261,7 +275,7 @@ a:focus {
 .marketing-site-footer-block p {
   /*margin-left: 1rem;*/
   line-height: 1.125rem;
-  font-size:0.9rem
+  font-size: 0.9rem;
 }
 
 .marketing-site-footer-bottom {
@@ -276,8 +290,8 @@ a:focus {
 
 .marketing-site-footer-bottom .marketing-site-footer-bottom-links {
   -webkit-justify-content: flex-end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 .marketing-site-footer-bottom .marketing-site-footer-bottom-links a {
@@ -287,8 +301,8 @@ a:focus {
 @media screen and (max-width: 63.9375em) {
   .marketing-site-footer-bottom .marketing-site-footer-bottom-links {
     -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 }
 
@@ -297,4 +311,3 @@ a:focus {
     text-align: center;
   }
 }
-
