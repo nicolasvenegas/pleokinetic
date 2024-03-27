@@ -259,8 +259,9 @@ a:focus {
 }
 
 .marketing-site-footer-block p {
-  margin-left: 1rem;
+  /*margin-left: 1rem;*/
   line-height: 1.125rem;
+  font-size:0.9rem
 }
 
 .marketing-site-footer-bottom {
