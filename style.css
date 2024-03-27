@@ -100,10 +100,16 @@ a:focus {
 #logoufro-1 {
   filter: saturate(1);
 }
-#big-header-page-temuco {
-  background: url("https://cdn.glitch.global/7a09067d-7957-4cb6-9255-345cd447eace/di%C3%A1logo-araucan%C3%ADa-1.jpg?v=1710854218936")
+#big-header {
+  background: url("https://cdn.glitch.global/7a09067d-7957-4cb6-9255-345cd447eace/pleokinetic_banner1.jpg?v=1710850903710")
     no-repeat center right;
   background-position-y: -200px;
+  background-size: cover;
+}
+#big-header-page-temuco {
+  background: linear-gradient(to top, #003a6ce5, #736104bd),
+    url("https://cdn.glitch.global/7a09067d-7957-4cb6-9255-345cd447eace/di%C3%A1logo-araucan%C3%ADa-1.jpg?v=1710854218936")
+      no-repeat center right;
   background-size: cover;
 }
 #postheader-grid-container p {
@@ -139,19 +145,19 @@ a:focus {
 #index-noticia ul li {
   font-size: 1.1rem;
 }
-#index-comite-grid-container{
+#index-comite-grid-container {
   margin-bottom: 3rem;
 }
 #index-comite-header {
   padding: 2rem 0;
 }
-#index-comite-header h3{
+#index-comite-header h3 {
   font-weight: bold;
   font-size: 2.5rem;
   line-height: 1.2;
   margin: 0;
 }
-#index-comite-header h3 span{
+#index-comite-header h3 span {
   font-weight: normal;
   font-style: italic;
   font-size: 2rem;
@@ -164,10 +170,10 @@ a:focus {
   font-weight: bold;
   margin: 1rem 0 0;
 }
-#index-comite-content p{
+#index-comite-content p {
   font-size: 0.9rem;
 }
-#index-comite-content img{
+#index-comite-content img {
   border-radius: 0 0 1rem 1rem;
   overflow: hidden;
 }
