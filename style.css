@@ -102,6 +102,38 @@ a:focus {
 .header-grid-container {
   padding: 0;
 }
+.comite-grid-container {
+  margin-bottom: 3rem;
+}
+.comite-header {
+  padding: 2rem 0;
+}
+.comite-header h3 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin: 0;
+}
+.comite-header h3 span {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 2rem;
+}
+.comite-header p {
+  margin: 0;
+}
+.comite-content h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 1rem 0 0;
+}
+.comite-content p {
+  font-size: 0.9rem;
+}
+.comite-content img {
+  border-radius: 0 0 1rem 1rem;
+  overflow: hidden;
+}
 /**Identificadores sitio web**/
 #index-grid-container {
   background-color: white;
@@ -162,38 +194,6 @@ a:focus {
 }
 #index-noticia ul li {
   font-size: 1.1rem;
-}
-#index-comite-grid-container {
-  margin-bottom: 3rem;
-}
-#index-comite-header {
-  padding: 2rem 0;
-}
-#index-comite-header h3 {
-  font-weight: bold;
-  font-size: 2.5rem;
-  line-height: 1.2;
-  margin: 0;
-}
-#index-comite-header h3 span {
-  font-weight: normal;
-  font-style: italic;
-  font-size: 2rem;
-}
-#index-comite-header p {
-  margin: 0;
-}
-#index-comite-content h4 {
-  font-size: 1.1rem;
-  font-weight: bold;
-  margin: 1rem 0 0;
-}
-#index-comite-content p {
-  font-size: 0.9rem;
-}
-#index-comite-content img {
-  border-radius: 0 0 1rem 1rem;
-  overflow: hidden;
 }
 #postheader-grid-container .callout {
   border-radius: 0 0 1rem 1rem;
