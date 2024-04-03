@@ -329,7 +329,7 @@ a:focus {
 }
 
 .timeline::before {
-  background: #fefefe;
+  background: #000000;
   content: "";
   height: 100%;
   left: 50%;
@@ -346,7 +346,7 @@ a:focus {
 }
 
 .timeline a {
-  color: #fefefe;
+  color: #000000;
   font-weight: bold;
   transition: all 0.25s ease-in;
 }
@@ -362,7 +362,7 @@ a:focus {
 }
 
 .timeline .timeline-item .timeline-icon {
-  background: #fefefe;
+  background: #000000;
   border-radius: 50%;
   height: 50px;
   left: 50%;
