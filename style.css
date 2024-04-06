@@ -149,7 +149,7 @@ a:focus {
   font-size: 2rem;
   color: #8aa0ae;
   margin-bottom: 0.5rem;
-  display:block;
+  display: block;
 }
 
 /**Identificadores sitio web**/
@@ -168,9 +168,9 @@ a:focus {
   filter: saturate(1);
 }
 #big-header {
-  background: url("https://cdn.glitch.global/7a09067d-7957-4cb6-9255-345cd447eace/pleokinetic_banner1.jpg?v=1710850903710")
-    no-repeat center right;
-  background-position-y: -200px;
+  background: url("https://cdn.glitch.global/7a09067d-7957-4cb6-9255-345cd447eace/IG-STORIE-SLIDER-TRAZADO.jpg?v=1712439478092")
+    no-repeat bottom right;
+  background-position-y: -100px;
   background-size: cover;
 }
 #big-header-page-temuco {
@@ -223,7 +223,7 @@ a:focus {
 #sidebar ul li span {
   display: block;
   font-size: 0.9rem;
-  font-weight:bold;
+  font-weight: bold;
 }
 #postheader-grid-container .callout {
   border-radius: 0 0 1rem 1rem;
@@ -231,13 +231,15 @@ a:focus {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 #postheader-grid-container .callout h4 {
-  background: #ff7618;
-  color: white;
-  font-size: 1rem;
+  background: #f4c42c;
+  color: #003a6c;
+  font-size: 1.3rem;
   text-align: center;
-  font-weight: bold;
+  font-weight: bolder;
   padding: 1rem;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  font-weight: bolder;
+  text-transform: uppercase;
 }
 #postheader-grid-container .callout ul {
   list-style-type: none;
