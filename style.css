@@ -147,6 +147,8 @@ a:focus {
   font-weight: normal;
   font-style: italic;
   font-size: 2rem;
+  color: #8aa0ae;
+  margin-bottom: 1rem;
 }
 
 /**Identificadores sitio web**/
@@ -209,6 +211,18 @@ a:focus {
 }
 #index-noticia ul li {
   font-size: 1.1rem;
+}
+#sidebar ul {
+  margin-top: 2rem;
+}
+#sidebar ul li {
+  margin-bottom: 1rem;
+}
+
+#sidebar ul li span {
+  display: block;
+  font-size: 0.9rem;
+  font-weight:bold;
 }
 #postheader-grid-container .callout {
   border-radius: 0 0 1rem 1rem;
@@ -393,7 +407,7 @@ a:focus {
   left: 14px;
   position: relative;
   top: 11px;
-  fill:#ffffff;
+  fill: #ffffff;
 }
 
 .timeline .timeline-item .timeline-icon svg {
@@ -422,7 +436,7 @@ a:focus {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 0;
-  color:#003a6c;
+  color: #003a6c;
 }
 
 .timeline .timeline-item .timeline-content .timeline-content-month {
