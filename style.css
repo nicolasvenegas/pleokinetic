@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap")
+  
+  
   /* Basic page style resets */ * {
   box-sizing: border-box;
 }
@@ -190,6 +192,9 @@ a:focus {
   margin: 2rem 0;
   font-weight:bolder;
   text-transform:uppercase;
+  font-family: 'Futura Bold';
+  font-weight: bold;
+  font-style: normal;
 }
 #postheader-grid-container h2 span {
   font-size: 1.6rem;
@@ -206,11 +211,13 @@ a:focus {
   padding: 3rem 0;
 }
 #index-noticias-grid-container {
-  margin-top: -30px;
+  margin-top: -50px;
   margin-bottom: 3rem;
 }
 #index-noticia h4 {
   font-weight: bold;
+  font-family: 'Futura Bold';
+  color: #003a6c;
 }
 #index-noticia ul {
   list-style-type: none;
@@ -245,6 +252,7 @@ a:focus {
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
   font-weight: bolder;
   text-transform: uppercase;
+  font-family: 'Futura Bold';
 }
 #postheader-grid-container .callout ul {
   list-style-type: none;
