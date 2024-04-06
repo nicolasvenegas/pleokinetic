@@ -26,6 +26,10 @@
     <link rel="stylesheet" href="fontface.css" crossorigin="anonymous" />
     <!-- The website stylesheet -->
     <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+    />
   </head>
   <body>
     <div id="big-header-page-temuco">
@@ -90,7 +94,18 @@
     <div class="grid-container">
       <div class="grid-x">
         <div class="small-12 cell">
-          https://cdn.glitch.global/7a09067d-7957-4cb6-9255-345cd447eace/di%C3%A1logo-araucan%C3%ADa-1.jpg
+          <div class="my-slider">
+            <div>
+              <img
+                src="https://cdn.glitch.global/7a09067d-7957-4cb6-9255-345cd447eace/di%C3%A1logo-araucan%C3%ADa-1.jpg"
+              />
+            </div>
+            <div>
+              <img
+                src="https://cdn.glitch.global/7a09067d-7957-4cb6-9255-345cd447eace/di%C3%A1logo-araucan%C3%ADa-1.jpg"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -247,8 +262,15 @@
     ></script>
     <!-- The website JavaScript file -->
     <script src="/script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script>
       $(document).foundation();
     </script>
+    <script>
+  var slider = tns({
+    container: '.my-slider',
+    items: 1,
+  });
+</script>
   </body>
 </html>
