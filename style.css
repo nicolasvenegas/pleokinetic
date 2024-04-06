@@ -184,13 +184,19 @@ a:focus {
   color: white;
 }
 #postheader-grid-container h2 {
-  font-size: 4rem;
-  color: white;
+  font-size: 3rem;
+  color: #f4c42c;
   line-height: 1;
-  margin-bottom: 2rem;
+  margin: 2rem 0;
+  font-weight:bolder;
+  text-transform:uppercase;
 }
 #postheader-grid-container h2 span {
   font-size: 1.6rem;
+  color: white;
+  display:inline-block;
+  line-height:1.2;
+  margin-top:0.5rem;
 }
 #postheader-grid-container h3 {
   font-size: 1.3rem;
@@ -234,9 +240,8 @@ a:focus {
   background: #f4c42c;
   color: #003a6c;
   font-size: 1.3rem;
-  text-align: center;
   font-weight: bolder;
-  padding: 1rem;
+  padding: 1rem 3rem;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
   font-weight: bolder;
   text-transform: uppercase;
@@ -252,6 +257,7 @@ a:focus {
 #postheader-grid-container .callout ul li span {
   text-transform: uppercase;
   font-weight: bold;
+  color: #003a6c;
 }
 
 /* BUILDING BLOCKS COMPONENTS */
