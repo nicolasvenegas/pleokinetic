@@ -148,7 +148,8 @@ a:focus {
   font-style: italic;
   font-size: 2rem;
   color: #8aa0ae;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  display:block;
 }
 
 /**Identificadores sitio web**/
