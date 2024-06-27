@@ -498,3 +498,8 @@ a:focus {
 .tns-controls{
   
 }
+
+#footer-logo{
+  filter: invert(100);
+  mix-blend-mode: lighten;
+}
