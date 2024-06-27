@@ -27,9 +27,6 @@ h1 {
 h2 {
   font-size: 2rem;
 }
-p {
-  color: #8aa0ae;
-}
 .h1 small,
 .h2 small,
 .h3 small,
@@ -46,7 +43,7 @@ h6 small {
 }
 li a,
 p a {
-  color: #4c86d7;
+  color: #999999;
   text-decoration: underline;
 }
 a:hover,
