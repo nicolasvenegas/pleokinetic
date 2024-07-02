@@ -66,6 +66,9 @@ a:focus {
   border-radius: 3px;
   font-weight: bold;
 }
+.button:hover, .button:hover{
+  background: #011d35;
+}
 .button,
 .button.disabled,
 .button.disabled:focus,
@@ -73,7 +76,7 @@ a:focus {
 .button[disabled],
 .button[disabled]:focus,
 .button[disabled]:hover {
-  background-color: #003a6c;
+  background-color: #011d35;
 }
 .button.secondary,
 .button.secondary.disabled,
