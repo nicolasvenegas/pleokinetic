@@ -23,9 +23,9 @@
       href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/css/foundation.min.css"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="fontface.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="fontface.css" />
     <!-- The website stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="big-header-page-temuco">
@@ -33,13 +33,13 @@
         <div class="grid-x">
           <div class="small-12 cell">
             <ul class="menu align-right">
-              <li><a href="/">Inicio</a></li>
-              <li><a href="/page-temuco.html">Temuco</a></li>
-              <li><a href="/page-organizacion.html">Organización</a></li>
-              <li><a href="/page-comite.html">Comité</a></li>
-              <li><a href="/page-trabajos.html">Trabajos</a></li>
-              <li><a href="#">Calendario</a></li>
-              <li><a href="/page-inscripciones.html">Inscripciones</a></li>
+              <li><a href="index.html">Inicio</a></li>
+              <!-- <li><a href="/page-temuco.html">Temuco</a></li> -->
+              <li><a href="page-programa.html">Programa</a></li>
+              <li><a href="page-comite.html">Comité</a></li>
+              <li><a href="page-trabajos.html">Envío de Comunicaciones</a></li>
+              <!-- <li><a href="/page-calendario.html">Calendario</a></li> -->
+              <li><a href="page-inscripciones.html">Inscripciones</a></li>
             </ul>
           </div>
         </div>
@@ -50,7 +50,7 @@
         <div class="grid-x align-middle">
           <div class="small-12 medium-4 cell">
             <h1>
-              <a href="/">
+              <a href="index.html">
                 <img
                   id="logoufro-1"
                   alt="Universidad de La Frontera"
@@ -72,7 +72,7 @@
           <div class="small-12 medium-6 cell">
             <h2>
               <span>Congreso Pleokinetic 2024</span> <br />
-              Organización
+              Programa
             </h2>
             <br />
           </div>
@@ -82,36 +82,128 @@
 
     <div class="grid-container comite-grid-container">
       <div class="grid-x align-middle comite-header">
-        <div class="small-12 medium-7 cell">
-          <h3>
-            <span>Integrantes</span><br />
-            Comité Organizador
-          </h3>
-        </div>
-        <div class="small-12 medium-5 cell">
-          <p><i>Conoce al equipo dedicado que hace posible este Congreso</i></p>
-        </div>
-      </div>
-      <div class="grid-x grid-margin-x comite-content">
-        <div class="small-6 medium-3 cell">
-          <img src="https://placehold.co/600x600/333/FFF" />
-          <h4>Dr. Sergio Navarra Espina</h4>
-          <p>Universidad de la Frontera, Chile</p>
-        </div>
-        <div class="small-6 medium-3 cell">
-          <img src="https://placehold.co/600x600/333/FFF" />
-          <h4>Dr. Sergio Navarra Espina</h4>
-          <p>Universidad de la Frontera, Chile</p>
-        </div>
-        <div class="small-6 medium-3 cell">
-          <img src="https://placehold.co/600x600/333/FFF" />
-          <h4>Dr. Sergio Navarra Espina</h4>
-          <p>Universidad de la Frontera, Chile</p>
-        </div>
-        <div class="small-6 medium-3 cell">
-          <img src="https://placehold.co/600x600/333/FFF" />
-          <h4>Dr. Sergio Navarra Espina</h4>
-          <p>Universidad de la Frontera, Chile</p>
+        <div class="small-12 cell">
+          <table>
+            <thead>
+              <tr>
+                <th width="300">Universidad</th>
+                <th>Nombre</th>
+                <th>País</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Universidad de Granada</td>
+                <td>Dr. Daniel Jerez Mayorga</td>
+                <td>España</td>
+              </tr>
+              <tr>
+                <td>Universidad de la República</td>
+                <td>Dr. Andrés González</td>
+                <td>Uruguay</td>
+              </tr>
+              <tr>
+                <td>Universidad de León</td>
+                <td>Dr. Isidoro Martínez Martín</td>
+                <td>España</td>
+              </tr>
+              <tr>
+                <td>Universidad de Granada</td>
+                <td>Dr. Ignacio J. Chirosa Ríos</td>
+                <td>España</td>
+              </tr>
+              <tr>
+                <td>Universidad de Granada</td>
+                <td>Dr. Darío Martínez García</td>
+                <td>España</td>
+              </tr>
+              <tr>
+                <td>Universidad de Granada</td>
+                <td>Dra. Ángela Rodríguez Perea</td>
+                <td>España</td>
+              </tr>
+              <tr>
+                <td>Universidad San Sebastián</td>
+                <td>Dr. Guido Contreras Díaz</td>
+                <td>Chile</td>
+              </tr>
+              <tr>
+                <td>Universidad San Sebastián / Universidad de Concepción </td>
+                <td>Dr. Rodrigo Lizama Pérez</td>
+                <td>Chile</td>
+              </tr>
+              <tr>
+                <td>Universidad de Las Américas</td>
+                <td>Dr. Álvaro Huerta Ojeda</td>
+                <td>Chile</td>
+              </tr>
+              <tr>
+                <td>Universidad Andrés Bello</td>
+                <td>Dra. Waleska Reyes Ferrada</td>
+                <td>Chile</td>
+              </tr>
+              <tr>
+                <td>Universidad del Cauca </td>
+                <td>Andrés Felipe Villaquiran Hurtado</td>
+                <td>Colombia</td>
+              </tr>
+              <tr>
+                <td>Universidad Andrés Bello</td>
+                <td>Dr. Klgo. Francisco Guede R.</td>
+                <td>Chile</td>
+              </tr>
+              <tr>
+                <td>Universidad Católica de la Santísima Concepción</td>
+                <td>Dr. Jesualdo Cuevas Aburto</td>
+                <td>Chile</td>
+              </tr>
+              <tr>
+                <td>Universidad Andrés Bello</td>
+                <td>Dra. Falonn Contreras</td>
+                <td>Chile</td>
+              </tr>
+              <tr>
+                <td>Universidad Andrés Bello</td>
+                <td>Dra. Claudia Miranda-Fuentes</td>
+                <td>Chile</td>
+              </tr>
+              <tr>
+                <td>Universidad del Gran Rosario</td>
+                <td>Leonardo Intelangelo</td>
+                <td>Argentina</td>
+              </tr>
+              <tr>
+                <td>Universidad de Granada </td>
+                <td>María Dolores Morenas Aguilar</td>
+                <td>España</td>
+              </tr>
+              <tr>
+                <td>Universidad de Las Américas</td>
+                <td>Guillermo Daniel Barahona-Fuentes</td>
+                <td>Chile</td>
+              </tr>
+              <tr>
+                <td>Universidad Andrés Bello</td>
+                <td>Christian Campos Jara</td>
+                <td>Chile</td>
+              </tr>
+              <tr>
+                <td>Universidad de Las Américas</td>
+                <td>Maximiliano Torres-Banduc</td>
+                <td>Chile</td>
+              </tr>
+              <tr>
+                <td>Universidad de La Frontera</td>
+                <td>Dr. Pedro Delgado-Floody</td>
+                <td>Chile</td>
+              </tr>
+              <tr>
+                <td>Universidad Autónoma de Guerrero</td>
+                <td>Dra. Iris Paola Guzmán- Guzmán</td>
+                <td>México</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
@@ -191,13 +283,13 @@
             </div>
             <div class="medium-8 cell">
               <ul class="menu marketing-site-footer-bottom-links">
-                <li><a href="/">Inicio</a></li>
-                <li><a href="/page-temuco.html">Temuco</a></li>
-                <li><a href="/page-organizacion.html">Organización</a></li>
-                <li><a href="/page-comite.html">Comité</a></li>
-                <li><a href="/page-trabajos.html">Trabajos</a></li>
-                <li><a href="#">Calendario</a></li>
-                <li><a href="/page-inscripciones.html">Inscripciones</a></li>
+                <li><a href="index.html">Inicio</a></li>
+              <!-- <li><a href="/page-temuco.html">Temuco</a></li> -->
+              <li><a href="page-programa.html">Programa</a></li>
+              <li><a href="page-comite.html">Comité</a></li>
+              <li><a href="page-trabajos.html">Envío de Comunicaciones</a></li>
+              <!-- <li><a href="/page-calendario.html">Calendario</a></li> -->
+              <li><a href="page-inscripciones.html">Inscripciones</a></li>
               </ul>
             </div>
           </div>
@@ -217,7 +309,7 @@
       crossorigin="anonymous"
     ></script>
     <!-- The website JavaScript file -->
-    <script src="/script.js" defer></script>
+    <script src="script.js" defer></script>
     <script>
       $(document).foundation();
     </script>
